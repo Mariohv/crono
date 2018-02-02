@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 40.0, 79.0, 437.0, 364.0 ],
+		"rect" : [ 40.0, 79.0, 427.0, 360.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 558.0, 650.93335, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "host 200.21.104.1"
+					"text" : "host 127.0.0.1"
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 314.5, 151.0, 24.0 ],
 					"style" : "",
-					"text" : "200.21.104.1"
+					"text" : "127.0.0.1"
 				}
 
 			}
@@ -535,7 +535,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 200.0, 387.0, 106.0 ],
 					"style" : "",
-					"text" : "00:00:00",
+					"text" : "00:01:38",
 					"textcolor" : [ 0.878431, 0.215686, 0.14902, 1.0 ]
 				}
 
@@ -642,7 +642,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.0, 282.5, 150.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 96.0, 150.0, 27.0 ],
+					"presentation_rect" : [ 20.0, 101.0, 150.0, 27.0 ],
 					"style" : "",
 					"text" : "Pone los Minutos"
 				}
@@ -886,6 +886,8 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 107.5, 80.111084, 17.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 247.5, 139.0, 59.111084, 59.111084 ],
 					"style" : ""
 				}
 
