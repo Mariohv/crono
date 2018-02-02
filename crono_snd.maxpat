@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 40.0, 79.0, 681.0, 681.0 ],
+		"rect" : [ 40.0, 79.0, 731.0, 683.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,51 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 490.0, 555.0, 199.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 313.0, 199.0, 27.0 ],
+					"style" : "",
+					"text" : "Define la ip o hostname"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 365.5, 341.5, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 490.0, 584.0, 93.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 221.0, 313.0, 93.0, 23.0 ],
+					"style" : "",
+					"text" : "host 127.0.0.1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Helvetica",
 					"fontsize" : 12.0,
@@ -102,7 +147,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 478.0, 567.93335, 140.0, 22.0 ],
+					"patching_rect" : [ 478.0, 635.93335, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "udpsend 127.0.0.1 7770"
 				}
@@ -466,7 +511,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 200.0, 387.0, 106.0 ],
 					"style" : "",
-					"text" : "00:59:59",
+					"text" : "00:00:00",
 					"textcolor" : [ 0.878431, 0.215686, 0.14902, 1.0 ]
 				}
 
@@ -1140,6 +1185,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-24", 1 ]
 				}
@@ -1212,6 +1264,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "OpenSoundControl.mxo",
 				"type" : "iLaX"
