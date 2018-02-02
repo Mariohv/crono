@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 226.0, 79.0, 640.0, 480.0 ],
+		"rect" : [ 552.0, 79.0, 406.0, 130.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -160,6 +160,23 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.141176, 0.25098, 0.109804, 1.0 ],
+					"fontname" : "Helvetica",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 46.0, 20.0, 133.0, 20.0 ],
+					"style" : "",
+					"text" : "udpreceive 7770 mario"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
@@ -178,26 +195,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.0, 280.0, 387.0, 106.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 200.0, 387.0, 106.0 ],
+					"presentation_rect" : [ 6.0, 6.0, 387.0, 106.0 ],
 					"style" : "",
 					"text" : "00:24:59",
 					"textcolor" : [ 0.878431, 0.215686, 0.14902, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.141176, 0.25098, 0.109804, 1.0 ],
-					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 20.0, 133.0, 20.0 ],
-					"style" : "",
-					"text" : "udpreceive 7770 mario"
 				}
 
 			}
